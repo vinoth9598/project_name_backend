@@ -4,7 +4,12 @@ GMAIL CLONE:
 
     BACKEND USES:mongoose, node.js, express.js.
 
+    Frontend github link = 
+    Frontend API URL's - https://project-gmail.netlify.app/emails/inbox
+
     BACKEND API URL'S - https://gmail-clone-8pm9.onrender.com
+
+    
 
     URLS ENDPOINT:
       GET - https://gmail-clone-8pm9.onrender.com/emails/inbox
