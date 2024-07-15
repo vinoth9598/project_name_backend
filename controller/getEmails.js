@@ -9,7 +9,7 @@ getEmails.get('/emails/:type', async(req,res)=>{
         
         if(req.params.type === 'bin'){
             emails = await Email.find({ bin: true })
-        }else if (req.params.type === 'all mail'){
+        }else if (req.params.type === 'allmail'){
             emails = await Email.find({});
         }else if(req.params.type === 'starred'){
             emails = await Email.find({starred: true, bin:false})
